@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* TAG */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Ubuntu', sans-serif }
+a { text-decoration: none; color: #000 }
+body { background-color: #f1f1f1 }
+img { object-fit: cover }
+nav { font-weight: 550; padding: 0 80px; display: flex; align-items: center; justify-content: space-between; height: 80px }
+nav a.logo { font-size: 33px; color: #0f2182; font-weight: 800 }
+nav .links a:not(:last-child) { margin-right: 20px }
+nav .login button { padding: 8px 14px; border: none; cursor: pointer; background-color: transparent }
+nav .login button.signup { margin-right: 14px; background-color: #000; color: #fff; border-radius: 4px }
+
+/* ID */
+
 /* CLASSES */
 .header-row .fbox-sm .fbox-icon { width: 1.25rem; height: 1.25rem }
 .header-row .fbox-sm .fbox-icon i { position: relative; top: 1px; font-size: 1.25rem }
