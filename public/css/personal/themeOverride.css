@@ -11,3 +11,6 @@
 /* CLASSES */
 
 /* MEDIA */
+@media screen and (max-width: 768px) {
+      .menu-container { box-shadow: 10px 10px 5px #dedede!important; z-index: 2!important; margin-top: 40px!important; background: white!important; }
+}
