@@ -44,16 +44,6 @@
 	max-width: calc(100% - 30px);
 }
 
-#logo img {
-	transition: transform .5s ease;
-	-webkit-animation-iteration-count: infinite;
-	animation-iteration-count: infinite;
-}
-
-#logo:hover img {
-	transform: rotate(90deg);
-}
-
 .is-expanded-menu #header-wrap,
 .is-expanded-menu .sticky-header #header-wrap {
 	position: fixed !important;
